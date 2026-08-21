@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #222222;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+a {
+    color: #5865f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #121212;
+        color: #eeeeee;
+    }
+
+    a {
+        color: #7289da;
+    }
+}
